@@ -1,13 +1,13 @@
 # Noderce
 
-Theme for [Hexo].
+Theme for [Hexo]. [Demo](http://willerce.com/)
 
 ## Install
 
 Execute the following command and modify `theme` in `_config.yml` to `Noderce`.
 
 ```
-git clone git://github.com/yhben/hexo-theme-noderce.git themes/Noderce
+git clone git://github.com/willerce/hexo-theme-noderce.git themes/Noderce
 ```
 
 ## Update
