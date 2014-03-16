@@ -27,7 +27,7 @@ if (page.archive) {
       <% this_year = year; } %>
       <li>
       <time datetime="<%= item.date.toDate().toISOString() %>"><%= item.date.format("MM-DD") %></time>
-      <a href="<%- config.root %> <%- item.path %>"><%= item.title %></a>
+      <a href="<%- config.root %><%- item.path %>"><%= item.title %></a>
       </li>
   <% }); %>
   </article>
