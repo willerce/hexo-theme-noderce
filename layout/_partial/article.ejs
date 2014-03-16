@@ -13,24 +13,24 @@
         <%- item.content %>
       <% } %>
     </div>
-    <footer>
-      <% if (index){ %>
-        <% if (item.excerpt){ %>
-          <div class="alignleft">
-            <a href="<%- config.root %><%- item.path %>#more" class="more-link"><%= theme.excerpt_link %></a>
-          </div>
-        <% } %>
-        <% if (item.comment && config.disqus_shortname){ %>
-        <div class="alignright">
-          <a href="<%- item.permalink %>#disqus_thread" class="comment-link">Comments</a>
+    <% if (index){ %>
+      <% if (item.excerpt){ %>
+      <footer>
+        <div class="alignleft">
+          <a href="<%- config.root %><%- item.path %>#more" class="more-link"><%= theme.excerpt_link %></a>
         </div>
-        <% } %>
-      <% } else { %>
-        <%- partial('post/category') %>
-        <%- partial('post/tag') %>
+        <div class="clearfix"></div>
+      </footer>
       <% } %>
+    <% } else { %>
+    <footer>
+      <div class="alignleft">
+      <%- partial('post/category') %>
+      <%- partial('post/tag') %>
+      </div>
       <div class="clearfix"></div>
     </footer>
+    <% } %>
   </div>
 </article>
 

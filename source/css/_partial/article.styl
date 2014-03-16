@@ -16,18 +16,6 @@ article
   .post-content
     position relative
 
-    .prev
-      left 0
-      &:before
-        content '\f053'
-        left 10px
-
-    .next
-      right 0
-      &:before
-        content '\f054'
-        right 10px
-
   header
     time
       color color-meta
@@ -182,38 +170,9 @@ article
         padding-right 10px
         vertical-align middle
 
-      &.more-link
-        &:before
-          content '\f054'
-
-      &.comment-link
-        &:before
-          content '\f075'
-
     .categories, .tags
       position relative
-      padding-left 25px
       margin 5px 0
-      &:before
-        position absolute
-        font 1.1em font-icon
-
-    .categories
-      &:before
-        content '\f07b'
-        top 2px
-        left 1px
-
-    .tags
-      &:before
-        content '\f02b'
-        top 3px
-        left 2px
-
-    .addthis
-      margin-top 15px
-      iframe
-        margin-top 0
 
 #page header .title
   margin-bottom 30px
