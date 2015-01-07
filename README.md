@@ -1,6 +1,6 @@
 # Noderce
 
-Theme for [Hexo]. [Demo](http://willerce.com/)
+Theme for [Hexo].
 
 ## Install
 
